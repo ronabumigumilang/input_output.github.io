@@ -11,13 +11,18 @@
     <h1>Aplikasi Input Output Sederhana</h1>
 
     <label for="">Nama : </label><br>
-    <input type="text" id="nama"><br>
+    <input type="text" id="nama" placeholder="Masukkan Nama" id="input-nama">
+    <br>
 
     <label for="">Umur : </label><br>
-    <input type="text" id="umur"><br>
+    <input type="text" id="umur" placeholder="Masukkan Umur"><br><br>
 
     <button onclick="tampil()">tampilkan</button>
+    <button onclick="reset()">Reset Hasil</button>
+    <button id="resetAllInput">Reset All</button>
     <hr>
+
+    <h3>Hasilnya : </h3>
 
     <div id="output"></div>
     <script src="script.js"></script>
